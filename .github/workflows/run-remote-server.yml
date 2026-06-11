@@ -3,7 +3,7 @@ name: Click Here To Run
 on:
   workflow_dispatch:
     inputs:
-      ts_tailnet: { description: "Tailscale tailnet (e.g. yourname.github)", required: true }
+      ts_tailnet: { description: "Tailscale tailnet (e.g. yourname.github, yourname@mail.com, etc.)", required: true }
       ts_authkey: { description: "Tailscale Auth key (reusable or ephemeral)", required: true }
       ts_api_key: { description: "Tailscale API key (device admin, no Bearer)", required: true }
 
